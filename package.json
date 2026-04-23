@@ -1,0 +1,17 @@
+{
+  "name": "nba-widget-proxy",
+  "version": "1.0.0",
+  "description": "Caching proxy for NBA.com live data, serving the NBA player stat widget.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
